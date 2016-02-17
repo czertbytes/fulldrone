@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"bitbucket.org/czertbytes/ve/a"
-	"bitbucket.org/czertbytes/ve/b"
+	"github.com/czertbytes/fulldrone/a"
+	"github.com/czertbytes/fulldrone/b"
 )
 
 func main() {

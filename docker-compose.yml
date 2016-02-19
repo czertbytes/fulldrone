@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+  app:
+    image: czertbytes/fulldrone
+    container_name: app
+    volumes:
+      - data:/var/foo
+    entrypoint: ["/bin/sh"]
+    command: |
+      -c "
+      while :; do
+        echo 'foo'
+        sleep 5;
+      done
+      "
+
+volumes:
+  data:
